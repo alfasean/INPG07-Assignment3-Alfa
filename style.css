@@ -1,0 +1,99 @@
+body {
+    background-color: #CEE5D0;
+}
+
+.container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.container-nav {
+    margin-right: 30px;
+}
+
+.box {
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.inputElement {
+    background-color: white;
+}
+.btn_data {
+    background-color: #256D85;
+    color: white;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+
+.btn_clear {
+    background-color: #3D8361;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+.bg_div {
+    background-color: #94B49F;
+}
+
+#about {
+    background-color: #94B49F;
+    padding: 30px;
+    text-align: justify;
+}
+
+.social-media-container a {
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+}
+.social-media-container a img{
+    width: 30px;
+    height: 30px;
+}
+
+/* footer {
+    bottom: 0;
+    width: 100%;
+} */
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #0F3460;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    z-index: 20px;
+  }
+  
+  /* Untuk memunculkan tombol */
+  .back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+  }
+  
+  .back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
